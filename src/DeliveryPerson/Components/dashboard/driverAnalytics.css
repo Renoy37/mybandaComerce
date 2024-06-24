@@ -1,0 +1,98 @@
+/* .deliveryAnalytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.chart-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.deliverytable-container {
+    flex: 1 1 45%;
+    margin: 20px;
+}
+
+.chart-container, .single-chart-container {
+    margin-left: 25px;
+    margin-top: 40px;
+
+}
+
+.charts h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.charts p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.driver-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.driver-table th, .driver-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.driver-table th {
+    background-color: #FFD700;
+} */
+
+
+.topBox h3 {
+      margin-bottom: 30px;
+}
+      
+.best-listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.best-cust {
+    display: flex;
+    gap: 20px;
+}
+  
+.best-cust img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  
+}
+          
+.userTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.customer-username {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.customer-email {
+    font-size: 12px;
+}
+  
+.customer-amount {
+    font-weight: 500;
+}
+
+   
+  

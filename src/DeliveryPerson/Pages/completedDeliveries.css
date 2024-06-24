@@ -1,0 +1,13 @@
+.completed-deliveries {
+    display: flex;
+    width: 100%;
+}
+
+.completed-deliveries-container {
+    flex: 5;
+}
+
+.completed-deliveries-container p {
+    margin-left: 50px;
+    font-size: 18px;
+}

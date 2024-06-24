@@ -1,0 +1,179 @@
+.no-orders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.no-orders img {
+    height: 450px;
+}
+
+.no-orders p {
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+/* .orderWrapper{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.orderTitle{
+    margin: 0 100px;
+    width: 1000px;
+    background: purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderTitle-Status ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderTitle-Status ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.orderContainer{
+    margin: 0px 100px;
+    justify-content: center;
+    background: yellow;
+    height: 500px;
+    width: 500px;
+} */
+
+.orderWrapper {
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23); */
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the children horizontally */
+    justify-content: flex-start; /* Align children at the start vertically */
+    
+}
+
+.orderTitle {
+    width: 80%;
+    /* background: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.orderTitle-Status ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderTitle-Status ul li {
+    list-style: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.orderContainer {
+    /* border: 1px solid rgba(133, 133, 133, 0.154); */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+.orderContainer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderContainer-top .status-btn{
+    width: 120px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.status-btn.completed {
+    color: green;
+    background: rgb(216, 255, 216);
+}
+
+.status-btn.pending {
+    color: rgb(80, 79, 79);
+    background: lightgray;
+}
+
+.status-btn.dispatched {
+    color: blue;
+    background: rgb(208, 208, 252);
+}
+
+.status-btn.assigned {
+    color: orange;
+    background: rgb(251, 230, 191);
+}
+.status-btn.default{
+    color: #000;
+}
+
+.orderContainer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderContainer-bottom .bottom-left p{
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+.orderContainer-bottom .bottom-left p span{
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.orderContainer-bottom .bottom-right{
+    margin-top: 40px;
+    /* background: green; */
+}
+
+.orderContainer-bottom .bottom-right a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+}
+
+.orderContainer-bottom .bottom-right a:hover{
+    color: #000;
+    opacity: 1;
+}
+
+.orderContainer-bottom .bottom-right a button{
+    text-transform: capitalize;
+    color: #000 !important;
+    font-size: 16px;
+    width: 120px;
+    border: 1px dotted rgba(128, 128, 128, 0.718);
+}

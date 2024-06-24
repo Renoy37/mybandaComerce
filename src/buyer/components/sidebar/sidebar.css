@@ -1,0 +1,21 @@
+.sidebar .btn{
+    text-transform: capitalize;
+    font-size: 16px;
+    background:#FFD700 ;
+    color:white;
+    width: 100%;
+   
+}
+
+.sidebar .btn:hover{
+    background: #ffeb86;
+}
+
+.sidebar .btn svg{
+    margin-right: 10px;
+}
+
+
+.sidebar img{
+    border-radius: 10px;
+}
